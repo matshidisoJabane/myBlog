@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <script src="https://kit.fontawesome.com/b921bbdeaa.js" crossorigin="anonymous"></script>
+
+    <title>Car World</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm bg-dark justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+
+          <a class="nav-link" href="index.html" >Home</a>
+        </li>
+
+    </ul>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+
+
+      <div class="container">
+        <h1>Car World Blog</h1>
+        <p>Welcome to the best car blog there is to find, hope you enjoy our work</p>
+      </div>
+    </div>
+
+<h1 style="text-align: center">Creating an article </h1>
+
+<div class="container">
+  <h2 id="hi">Article Title</h2>
+  <input class="form-control" type="text" name="" value="" id="title"><br>
+
+
+  <h2>choose an image</h2>
+  <input  type="file" name="" value="" >
+
+<br>
+<br>
+  <h2>Article Text</h2>
+  <textarea class="form-control" name="name" rows="4" id="comment" id="text"></textarea>
+
+  <br>
+  <h2>Article Category</h2>
+  <input  class="form-control" type="text" name="" value="" id="Category">
+  <br>
+  <button type="button" name="button" class="btn btn-primary" onClick="myvalues()">Submit</button>
+</div>
+<br>
+
+
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+function myvalues(){
+  document.getElementById('title').innerHTML="hii";
+  var titleCheck=document.getElementById('title').value;
+  var CategoryCheck=document.getElementById('Category').value;
+
+  if(titleCheck ==="" || CategoryCheck==="")
+  {
+    alert("Please provide all fields");
+  }else {
+  alert("Successefull.....! ");
+  }
+}
+
+
+
+
+
+
+    </script>
+  </body>
+</html>

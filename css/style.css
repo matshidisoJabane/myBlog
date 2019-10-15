@@ -1,0 +1,44 @@
+.container{
+  width: 100%;
+}
+
+.nav-link{
+color: white;
+
+}
+
+.h1{color:red}
+
+.top{
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  float: right;
+  margin-right: 20px;
+
+}
+
+
+margin-top: 7px;
+
+  width: 120px;
+}
+
+li{
+  padding: 0px 15px;
+}
+a{
+  font-size: 20px;
+}
+
+.heading{
+
+  font-size: 30px;
+  color: #007bff;
+}
+
+
+.card-title{
+  color: white;
+  margin-top: 345px;
+}
